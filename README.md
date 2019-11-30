@@ -9,6 +9,6 @@ So, finally making some developments, I uploaded the files to this repository. I
 Until the final release of this version(0.4), you can give me suggestions or report bugs to my following email address:
 mdgaziurrahmannoor@gmail.com
 
-For more info, visit: http://ikonsole.webs.com
+For more info, visit: http://sites.google.com/view/iKonsole
 
 
