@@ -9,7 +9,7 @@ file. This may cause many problems.
 
 import os,platform,sys
 
-version=str(0.4)
+iversion=str(0.4)
 
 OS=platform.system()
 

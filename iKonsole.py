@@ -63,7 +63,7 @@ while(1):
                 white=True
                 if white:
                     if OS=="Windows":
-                        os.chdir("C:\\User\\"+username)
+                        os.chdir("C:\\Users\\"+username)
                     else:
                         os.chdir("/home/"+username)
             else:
@@ -77,6 +77,14 @@ while(1):
             print(e)
     elif tokens[0]=='help':
         helper()
+    elif tokens[0]=='cmdgroup':
+        try:
+            temp=tokens[1]
+        except:
+            print("Enter file with full path.")
+        else:
+            from internal.command_group_parser import *
+            parse(tokens[1])
     elif tokens[0]=='repair-ikonsole':
         print('"Under construction" command.')
     elif tokens[0]=='exit':
