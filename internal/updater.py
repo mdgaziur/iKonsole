@@ -43,9 +43,10 @@ def update():
             print("No update available. Current version is the latest.")
         else:
             print("Invalid version number!\nTry reinstalling the software or contact the developer.")
+
     pass
 def update(version=0.0):
-    if version==0.0:
+    if version=="0.0":
         print("Invalid version!")
     else:
         checkupdate()
