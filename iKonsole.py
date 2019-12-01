@@ -32,7 +32,7 @@ logging.basicConfig(filename='debug.log',format='%(asctime)s - %(name)s - %(leve
 
 dir=os.getcwd()
 username=getpass.getuser()
-print('iKonsole v'+version+'. Python '+pyver+'. Running on '+OS+' '+os_release+'.')
+print('iKonsole v'+iversion+'. Python '+pyver+'. Running on '+OS+' '+os_release+'.')
 while(1):
     logging.info('Waiting for user input...')
     try:
