@@ -13,7 +13,6 @@ from .config import *
 import subprocess
 import shlex
 def checkupdate():
-<<<<<<< HEAD
     lv=requests.get("https://mdgaziur.github.io/updateikonsole/")
     lv=lv.text.replace("\n","")
     return float(lv)
@@ -45,11 +44,9 @@ def update():
         else:
             print("Invalid version number!\nTry reinstalling the software or contact the developer.")
 
-=======
     pass
 def update(version=0.0):
     if version="0.0":
         print("Invalid version!")
     else:
         checkupdate()
->>>>>>> e366201a0410fa3a7c6cadc8da5ce546aae7a137
