@@ -5,4 +5,5 @@ helpdata='cd\n' \
          'isfile\n' \
          'rname\n' \
          'showtime\n' \
-         'about\n'
+         'about\n' \
+         'plugin-import'

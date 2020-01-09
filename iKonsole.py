@@ -20,6 +20,8 @@ from datetime import datetime
 from internal.config import *
 from internal.helpfile import helper
 from internal.descriptor import *
+import plugins
+mhome=os.path.dirname(__file__)
 #set timestamp in logfile
 try:
     lf=open(mhome+'/debug.log','a')
@@ -77,14 +79,13 @@ while(1):
             print(e)
     elif tokens[0]=='help':
         helper()
-    elif tokens[0]=='cmdgroup':
+    elif tokens[0]=='plugin-import':
         try:
             temp=tokens[1]
         except:
-            print("Enter file with full path.")
+            print("Enter plugin name to import.")
         else:
-            from internal.command_group_parser import *
-            parse(tokens[1])
+            print("Trying to load plugin...")
     elif tokens[0]=='repair-ikonsole':
         print('"Under construction" command.')
     elif tokens[0]=='exit':
