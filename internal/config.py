@@ -21,4 +21,4 @@ aupdater=True
 
 mhome=os.getcwd()
 
-uplink="http://mdgaziurr.github.io/update-ikonsole"
+uplink="http://mdgaziur.github.io/update-ikonsole"
