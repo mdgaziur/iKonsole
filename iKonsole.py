@@ -8,13 +8,14 @@ import logging
 import getpass
 #importing shlex module
 import shlex
-try:
-    import readline
-except:
+if sys.platform!="win32":
     try:
-        import gnureadline
+        import readline
     except:
-        print("Neither 'readline' nor 'gnureadline' module not found. Readline capabilities will not be available.")
+        try:
+            import gnureadline
+        except:
+            print("Neither 'readline' nor 'gnureadline' module not found. Readline capabilities will not be available.")
 from datetime import datetime
 #importing required modules from internal folder
 from internal.config import *
