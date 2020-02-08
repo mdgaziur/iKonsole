@@ -1,7 +1,7 @@
 from .config import *
 def show_description():
-    description='iKonsole v'+version+'. Created by MD Gaziur Rahman Noor.\n' \
-                'This program works as an extension for both linux and ' \
+    description = 'iKonsole v' + iversion + '. Created by MD Gaziur Rahman Noor.\n' \
+                                            'This program works as an extension for both linux and ' \
                 'windows cli. It adds extra functionality or makes certain ' \
                 'commands easier to use.\n' \
                 'This program requires python interpreter.  ' \

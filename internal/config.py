@@ -19,6 +19,5 @@ pyver=platform.python_version()
 
 aupdater=True
 
-mhome=os.getcwd()
 
 uplink="http://mdgaziur.github.io/update-ikonsole"

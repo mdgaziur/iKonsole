@@ -1,5 +1,5 @@
-# iKonsole
-
+<h1>iKonsole</h1>
+<p class="desc">
 I've coded iKonsole from scratch to make sure I can update it more fluently. You can see the old repository on https://github.com/mdgaziur/ikonsole-old.
 
 All the improvements will be done on this repository.
@@ -10,5 +10,6 @@ Until the final release of this version(0.4), you can give me suggestions or rep
 mdgaziurrahmannoor@gmail.com
 
 For more info, visit: http://sites.google.com/view/iKonsole
+</p>
 
 
