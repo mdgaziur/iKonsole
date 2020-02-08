@@ -6,5 +6,4 @@ for cmd in IKONSOLE_CMD_BUILTIN:
 
 def cexec(command, IKONSOLE_CMD_BUILTIN):
     func_name = command[0]
-    print(func_name + '(command)')
     exec(func_name + '(command)')
