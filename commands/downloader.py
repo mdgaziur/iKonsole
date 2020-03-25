@@ -20,6 +20,20 @@ class SNode:
             return ["%.2f" % (s / 1024),"GB"]
         elif s >= 1024 * 1024:
             return ["%.2f" % (4 * 1024),"TB"]
+class SpeedNode:
+    def __init__(self,speed):
+        self.speed,self.unit=self.autoconvert(speed)
+    def autoconvert(self,length):
+        length = float(length)
+        s = length
+        if s<1:
+            s*=1024
+            return float(s),"KBPS"
+        elif s>=1024:
+            s/=1024
+            return float(s),"GBPS"
+        elif s>=1 and s<1024:
+            return float(s),"MBPS"
 
 def Download():
     console_columns, console_rows = shutil.get_terminal_size()
