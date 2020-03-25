@@ -17,7 +17,10 @@ def cd(tokens):
                 else:
                     os.chdir("/home/" + username)
         else:
-            os.chdir(tokens[1])
+            path=''.join(tokens[1:])
+            path=path.replace('"','')
+            path=path.replace("'","")
+            os.chdir(path)
     except FileNotFoundError as e:
         print(e)
     except PermissionError as e:
