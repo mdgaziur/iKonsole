@@ -5,4 +5,5 @@ helpdata= 'cd\n' \
          'rname\n' \
          'showtime\n' \
          'about\n' \
-          'simpletext'
+         'simpletext\n' \
+         'downloader'
