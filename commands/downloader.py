@@ -3,7 +3,7 @@ import sys
 import time
 import shutil
 
-chunk_size = 1024
+chunk_size = 1024*512
 
 
 
